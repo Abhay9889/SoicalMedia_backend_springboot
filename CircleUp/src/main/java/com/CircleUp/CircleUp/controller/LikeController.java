@@ -1,15 +1,11 @@
 package com.CircleUp.CircleUp.controller;
 
 
-import com.CircleUp.CircleUp.model.Like;
-import com.CircleUp.CircleUp.model.User;
-import com.CircleUp.CircleUp.repository.LikeRepository;
+import com.CircleUp.CircleUp.entity.User;
 import com.CircleUp.CircleUp.service.LikeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 //
 //@RestController
 //@RequestMapping("/likes")

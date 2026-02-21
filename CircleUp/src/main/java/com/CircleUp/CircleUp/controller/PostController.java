@@ -2,11 +2,10 @@ package com.CircleUp.CircleUp.controller;
 
 import com.CircleUp.CircleUp.dto.CreatePostRequest;
 import com.CircleUp.CircleUp.dto.PostResponse;
-import com.CircleUp.CircleUp.model.Post;
-import com.CircleUp.CircleUp.model.User;
+import com.CircleUp.CircleUp.entity.Post;
+import com.CircleUp.CircleUp.entity.User;
 import com.CircleUp.CircleUp.repository.PostRepository;
 import com.CircleUp.CircleUp.repository.UserRepository;
-import com.CircleUp.CircleUp.security.JwtUtil;
 import com.CircleUp.CircleUp.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

@@ -1,15 +1,12 @@
 package com.CircleUp.CircleUp.controller;
 
 
-import com.CircleUp.CircleUp.model.Comment;
-import com.CircleUp.CircleUp.model.Notification;
-import com.CircleUp.CircleUp.model.Post;
-import com.CircleUp.CircleUp.model.User;
+import com.CircleUp.CircleUp.entity.Comment;
+import com.CircleUp.CircleUp.entity.User;
 import com.CircleUp.CircleUp.repository.CommentRepository;
 import com.CircleUp.CircleUp.repository.NotificationRepository;
 import com.CircleUp.CircleUp.repository.PostRepository;
 import com.CircleUp.CircleUp.repository.UserRepository;
-import com.CircleUp.CircleUp.security.JwtUtil;
 import com.CircleUp.CircleUp.service.CommentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

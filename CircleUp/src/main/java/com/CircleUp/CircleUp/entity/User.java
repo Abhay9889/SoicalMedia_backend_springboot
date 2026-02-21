@@ -1,4 +1,4 @@
-package com.CircleUp.CircleUp.model;
+package com.CircleUp.CircleUp.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
@@ -70,7 +70,14 @@ public class User implements UserDetails {
     @Override
     public boolean isCredentialsNonExpired(){return true;}
 
+
+    @Column(name = "email_verified", nullable = false, columnDefinition = "boolean default false")
+    private boolean emailVerified = false;
+    private String verificationToken;
+    private LocalDateTime tokenExpiry;
+
     @Override
     public boolean isEnabled(){return true;}
+
 
 }

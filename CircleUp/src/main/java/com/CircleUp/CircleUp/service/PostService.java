@@ -2,8 +2,8 @@ package com.CircleUp.CircleUp.service;
 
 
 import com.CircleUp.CircleUp.dto.PostResponse;
-import com.CircleUp.CircleUp.model.Post;
-import com.CircleUp.CircleUp.model.User;
+import com.CircleUp.CircleUp.entity.Post;
+import com.CircleUp.CircleUp.entity.User;
 import com.CircleUp.CircleUp.repository.FollowRepository;
 import com.CircleUp.CircleUp.repository.LikeRepository;
 import com.CircleUp.CircleUp.repository.PostRepository;
@@ -26,6 +26,9 @@ public class PostService {
     private final LikeRepository likeRepository;
     public PostResponse createPost(Long userId,String content){
         User user=userRepository.findById(userId).orElseThrow(()->new RuntimeException("User not found!!"));
+        if(!user.isEmailVerified()){
+            throw new RuntimeException("Please verify your email before posting");
+        }
         Post post1=new Post();
         post1.setUser(user);
         post1.setCreatedAt(LocalDateTime.now());

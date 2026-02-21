@@ -1,6 +1,6 @@
 package com.CircleUp.CircleUp.service;
 
-import com.CircleUp.CircleUp.model.Post;
+import com.CircleUp.CircleUp.entity.Post;
 import com.CircleUp.CircleUp.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

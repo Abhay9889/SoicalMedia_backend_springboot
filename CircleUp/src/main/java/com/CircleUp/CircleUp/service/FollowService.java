@@ -1,7 +1,7 @@
 package com.CircleUp.CircleUp.service;
 
-import com.CircleUp.CircleUp.model.Follow;
-import com.CircleUp.CircleUp.model.User;
+import com.CircleUp.CircleUp.entity.Follow;
+import com.CircleUp.CircleUp.entity.User;
 import com.CircleUp.CircleUp.repository.FollowRepository;
 import com.CircleUp.CircleUp.repository.UserRepository;
 import lombok.RequiredArgsConstructor;

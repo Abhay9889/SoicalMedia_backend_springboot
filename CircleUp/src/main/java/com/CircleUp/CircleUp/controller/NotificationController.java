@@ -1,12 +1,10 @@
 package com.CircleUp.CircleUp.controller;
 
-import com.CircleUp.CircleUp.model.Notification;
-import com.CircleUp.CircleUp.model.User;
+import com.CircleUp.CircleUp.entity.Notification;
+import com.CircleUp.CircleUp.entity.User;
 import com.CircleUp.CircleUp.repository.NotificationRepository;
 import com.CircleUp.CircleUp.service.NotificationService;
 import lombok.RequiredArgsConstructor;
-import org.apache.catalina.LifecycleState;
-import org.aspectj.weaver.ast.Not;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 

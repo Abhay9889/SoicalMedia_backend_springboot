@@ -1,4 +1,4 @@
-package com.CircleUp.CircleUp.model;
+package com.CircleUp.CircleUp.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

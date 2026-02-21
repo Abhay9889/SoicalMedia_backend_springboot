@@ -1,6 +1,6 @@
 package com.CircleUp.CircleUp.repository;
 
-import com.CircleUp.CircleUp.model.Like;
+import com.CircleUp.CircleUp.entity.Like;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

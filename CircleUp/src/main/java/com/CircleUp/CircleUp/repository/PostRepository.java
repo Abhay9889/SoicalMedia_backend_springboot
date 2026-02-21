@@ -1,7 +1,6 @@
 package com.CircleUp.CircleUp.repository;
 
-import com.CircleUp.CircleUp.model.Post;
-import org.apache.catalina.LifecycleState;
+import com.CircleUp.CircleUp.entity.Post;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

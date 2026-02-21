@@ -1,7 +1,7 @@
 package com.CircleUp.CircleUp.repository;
 
-import com.CircleUp.CircleUp.model.Follow;
-import com.CircleUp.CircleUp.model.User;
+import com.CircleUp.CircleUp.entity.Follow;
+import com.CircleUp.CircleUp.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

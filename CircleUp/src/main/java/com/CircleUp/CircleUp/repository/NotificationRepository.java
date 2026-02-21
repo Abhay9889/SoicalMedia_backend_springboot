@@ -1,6 +1,6 @@
 package com.CircleUp.CircleUp.repository;
 
-import com.CircleUp.CircleUp.model.Notification;
+import com.CircleUp.CircleUp.entity.Notification;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

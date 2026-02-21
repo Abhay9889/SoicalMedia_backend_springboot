@@ -1,6 +1,6 @@
 package com.CircleUp.CircleUp.repository;
 
-import com.CircleUp.CircleUp.model.Comment;
+import com.CircleUp.CircleUp.entity.Comment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,8 +1,8 @@
 package com.CircleUp.CircleUp.service;
 
-import com.CircleUp.CircleUp.model.Comment;
-import com.CircleUp.CircleUp.model.Post;
-import com.CircleUp.CircleUp.model.User;
+import com.CircleUp.CircleUp.entity.Comment;
+import com.CircleUp.CircleUp.entity.Post;
+import com.CircleUp.CircleUp.entity.User;
 import com.CircleUp.CircleUp.repository.CommentRepository;
 import com.CircleUp.CircleUp.repository.NotificationRepository;
 import com.CircleUp.CircleUp.repository.PostRepository;

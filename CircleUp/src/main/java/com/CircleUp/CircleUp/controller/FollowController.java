@@ -1,9 +1,8 @@
 package com.CircleUp.CircleUp.controller;
 
-import com.CircleUp.CircleUp.model.User;
+import com.CircleUp.CircleUp.entity.User;
 import com.CircleUp.CircleUp.repository.FollowRepository;
 import com.CircleUp.CircleUp.repository.UserRepository;
-import com.CircleUp.CircleUp.security.JwtUtil;
 import com.CircleUp.CircleUp.service.FollowService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

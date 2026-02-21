@@ -11,7 +11,6 @@ import java.util.Date;
 @Component
 public class JwtUtil {
 
-    // FIX: read from application.properties — not hardcoded
     @Value("${app.jwt.secret}")
     private String secretKey;
 

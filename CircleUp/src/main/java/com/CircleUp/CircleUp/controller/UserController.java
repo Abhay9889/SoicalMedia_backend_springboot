@@ -1,10 +1,9 @@
 package com.CircleUp.CircleUp.controller;
 
 import com.CircleUp.CircleUp.dto.UserResponse;
-import com.CircleUp.CircleUp.model.User;
+import com.CircleUp.CircleUp.entity.User;
 import com.CircleUp.CircleUp.service.UserService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.boot.webmvc.autoconfigure.WebMvcProperties;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
